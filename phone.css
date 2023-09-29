@@ -1,0 +1,95 @@
+body {
+    text-align: center;
+    align-items: center;
+}
+
+div.navbar {
+    display: flex;
+    flex-wrap: wrap;
+}
+h2{
+    margin-top: 150px;
+}
+p.school-address{
+    margin: 0;
+    font-size: 22px;
+}
+.product-container {
+    float: none;
+    margin: 5px;
+}
+
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    gap: 20px;
+}
+
+.product-item {
+    height: auto;
+    width: 100%;
+}
+
+div.copyright p {
+    text-align: center;
+    line-height: 26px;
+}
+
+main {
+    justify-content: center;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+div.article {
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+
+.art1 {
+    display: block;
+    margin: auto;
+    width: auto;
+    height: auto;
+}
+
+.art2 {
+    display: block;
+    margin: auto;
+    width: auto;
+    height: auto;
+}
+
+.art3 {
+    display: block;
+    margin: auto;
+    width: auto;
+    height: auto;
+}
+
+section.link {
+    width: 100%;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+img.slideimg {
+    width: 315px;
+    height: 215px;
+}
+
+div.footer {
+    text-align: center;
+}
+
+div.copy p {
+    font-size: 18px;
+}
+.helpline img{
+    width: auto;
+    height: auto;
+}
